@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+"Conn_01x03_Male","J1","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
+"Conn_02x10_Odd_Even","J2","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",""
+"Conn_01x05_Male","J3","Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal",""
+"Conn_01x04_Male","J4","Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal",""
+"Screw_Terminal_01x05","J5,J6,J7,J8","TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal",""
+"330","R1,R2,R3,R4","Resistor_SMD:R_0805_2012Metric",""
+"Pico","U1","MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH_Clean",""
+"SN74LV1T34DBV","U2","Package_TO_SOT_SMD:SOT-23-5",""

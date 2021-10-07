@@ -1,0 +1,490 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J2
+U 1 1 614AD5C6
+P 6200 1300
+F 0 "J2" V 6204 1780 50  0000 L CNN
+F 1 "Conn_02x10_Odd_Even" V 6295 1780 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6200 1300 50  0001 C CNN
+F 3 "~" H 6200 1300 50  0001 C CNN
+	1    6200 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 614BC220
+P 3450 4150
+F 0 "J1" H 3558 4431 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3558 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3450 4150 50  0001 C CNN
+F 3 "~" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J3
+U 1 1 614C0040
+P 5700 5750
+F 0 "J3" H 5672 5682 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 5672 5773 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 5700 5750 50  0001 C CNN
+F 3 "~" H 5700 5750 50  0001 C CNN
+	1    5700 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 614C8B64
+P 6950 5700
+F 0 "J4" H 6922 5582 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 6922 5673 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 6950 5700 50  0001 C CNN
+F 3 "~" H 6950 5700 50  0001 C CNN
+	1    6950 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 614D343B
+P 5600 5350
+F 0 "R1" H 5670 5396 50  0000 L CNN
+F 1 "330" H 5670 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5530 5350 50  0001 C CNN
+F 3 "~" H 5600 5350 50  0001 C CNN
+	1    5600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 614D5962
+P 5700 5350
+F 0 "R2" H 5770 5396 50  0000 L CNN
+F 1 "330" H 5770 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 5350 50  0001 C CNN
+F 3 "~" H 5700 5350 50  0001 C CNN
+	1    5700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 614D616C
+P 5800 5350
+F 0 "R3" H 5870 5396 50  0000 L CNN
+F 1 "330" H 5870 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5730 5350 50  0001 C CNN
+F 3 "~" H 5800 5350 50  0001 C CNN
+	1    5800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 614D640B
+P 5900 5350
+F 0 "R4" H 5970 5396 50  0000 L CNN
+F 1 "330" H 5970 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5830 5350 50  0001 C CNN
+F 3 "~" H 5900 5350 50  0001 C CNN
+	1    5900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5550 5600 5500
+Wire Wire Line
+	5700 5550 5700 5500
+Wire Wire Line
+	5800 5550 5800 5500
+Wire Wire Line
+	5900 5550 5900 5500
+$Comp
+L Connector:Screw_Terminal_01x05 J5
+U 1 1 61559E29
+P 5900 2700
+F 0 "J5" V 5864 2412 50  0000 R CNN
+F 1 "Screw_Terminal_01x05" V 5773 2412 50  0000 R CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal" H 5900 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x05 J6
+U 1 1 6155F5E5
+P 6400 2700
+F 0 "J6" V 6364 2412 50  0000 R CNN
+F 1 "Screw_Terminal_01x05" V 6273 2412 50  0000 R CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal" H 6400 2700 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x05 J7
+U 1 1 61560253
+P 6900 2700
+F 0 "J7" V 6864 2412 50  0000 R CNN
+F 1 "Screw_Terminal_01x05" V 6773 2412 50  0000 R CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal" H 6900 2700 50  0001 C CNN
+F 3 "~" H 6900 2700 50  0001 C CNN
+	1    6900 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x05 J8
+U 1 1 6156155A
+P 7400 2700
+F 0 "J8" V 7364 2412 50  0000 R CNN
+F 1 "Screw_Terminal_01x05" V 7273 2412 50  0000 R CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal" H 7400 2700 50  0001 C CNN
+F 3 "~" H 7400 2700 50  0001 C CNN
+	1    7400 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 2900 7400 3300
+Wire Wire Line
+	6900 2900 6900 3000
+Wire Wire Line
+	6900 3000 7000 3000
+Wire Wire Line
+	7000 3000 7000 3300
+Wire Wire Line
+	6800 2900 6800 3050
+Wire Wire Line
+	6800 3050 6900 3050
+Wire Wire Line
+	6900 3050 6900 3300
+Wire Wire Line
+	6700 2900 6700 3300
+Wire Wire Line
+	6600 2900 6600 3300
+Wire Wire Line
+	6500 2900 6500 3300
+Wire Wire Line
+	6400 2900 6400 3300
+Wire Wire Line
+	6300 2900 6300 3050
+Wire Wire Line
+	6300 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3300
+Wire Wire Line
+	6100 2900 6100 3300
+Wire Wire Line
+	6000 2900 6000 3300
+Wire Wire Line
+	5900 2900 5900 3300
+Wire Wire Line
+	5800 2900 5800 3050
+Wire Wire Line
+	5800 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 3300
+Wire Wire Line
+	7200 2900 7200 3000
+Wire Wire Line
+	7200 3000 7100 3000
+Wire Wire Line
+	7100 3000 7100 3300
+Wire Wire Line
+	7200 3050 7200 3300
+Wire Wire Line
+	5600 3300 5300 3300
+Wire Wire Line
+	5300 3300 5300 4150
+Wire Wire Line
+	6400 4700 6400 4900
+Wire Wire Line
+	6400 4900 7050 4900
+Wire Wire Line
+	7050 4900 7050 5500
+Wire Wire Line
+	6200 4700 6200 5000
+Wire Wire Line
+	6200 5000 6950 5000
+Wire Wire Line
+	6950 5000 6950 5500
+Wire Wire Line
+	6100 4700 6100 5100
+Wire Wire Line
+	6100 5100 6850 5100
+Wire Wire Line
+	6850 5100 6850 5500
+Wire Wire Line
+	6000 5100 5900 5100
+Wire Wire Line
+	5900 5100 5900 5200
+Wire Wire Line
+	6000 4700 6000 5100
+Wire Wire Line
+	5900 4700 5900 5000
+Wire Wire Line
+	5900 5000 5800 5000
+Wire Wire Line
+	5800 5000 5800 5200
+Wire Wire Line
+	5700 4700 5700 5200
+$Comp
+L Logic_LevelTranslator:SN74LV1T34DBV U2
+U 1 1 614F0BC6
+P 4450 4150
+F 0 "U2" H 4106 4104 50  0000 R CNN
+F 1 "SN74LV1T34DBV" H 4106 4195 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5100 3900 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf" H 4050 3950 50  0001 C CNN
+	1    4450 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 4150 4750 4150
+Wire Wire Line
+	7500 2900 7500 1600
+Wire Wire Line
+	7500 1600 6600 1600
+Wire Wire Line
+	7400 2900 7400 1650
+Wire Wire Line
+	7400 1650 6550 1650
+Wire Wire Line
+	6550 1650 6550 1100
+Wire Wire Line
+	6550 1100 6600 1100
+Connection ~ 7400 2900
+Wire Wire Line
+	7300 2900 7300 1700
+Wire Wire Line
+	7300 1700 6500 1700
+Wire Wire Line
+	6500 1700 6500 1600
+Wire Wire Line
+	7200 2900 7200 1750
+Wire Wire Line
+	7200 1750 6450 1750
+Wire Wire Line
+	6450 1750 6450 1100
+Wire Wire Line
+	6450 1100 6500 1100
+Connection ~ 7200 2900
+Wire Wire Line
+	6900 2900 6900 1800
+Wire Wire Line
+	6900 1800 6400 1800
+Wire Wire Line
+	6400 1800 6400 1600
+Connection ~ 6900 2900
+Wire Wire Line
+	6800 2900 6800 1850
+Wire Wire Line
+	6800 1850 6350 1850
+Wire Wire Line
+	6350 1850 6350 1100
+Wire Wire Line
+	6350 1100 6400 1100
+Connection ~ 6800 2900
+Wire Wire Line
+	6700 2900 6700 1900
+Wire Wire Line
+	6700 1900 6325 1900
+Wire Wire Line
+	6325 1900 6325 1100
+Wire Wire Line
+	6325 1100 6300 1100
+Connection ~ 6700 2900
+Wire Wire Line
+	6600 2900 6600 1950
+Wire Wire Line
+	6600 1950 6300 1950
+Wire Wire Line
+	6300 1950 6300 1600
+Connection ~ 6600 2900
+Wire Wire Line
+	6500 2900 6500 2000
+Wire Wire Line
+	6500 2000 6250 2000
+Wire Wire Line
+	6250 2000 6250 1100
+Wire Wire Line
+	6250 1100 6200 1100
+Connection ~ 6500 2900
+Wire Wire Line
+	6400 2900 6400 2050
+Wire Wire Line
+	6400 2050 6200 2050
+Wire Wire Line
+	6200 2050 6200 1600
+Connection ~ 6400 2900
+Wire Wire Line
+	6300 2900 6300 2100
+Wire Wire Line
+	6300 2100 6150 2100
+Wire Wire Line
+	6150 2100 6150 1100
+Wire Wire Line
+	6150 1100 6100 1100
+Connection ~ 6300 2900
+Wire Wire Line
+	6100 2900 6100 1650
+Connection ~ 6100 2900
+Wire Wire Line
+	6100 1650 6050 1650
+Wire Wire Line
+	6050 1650 6050 1100
+Wire Wire Line
+	6000 1100 6050 1100
+Wire Wire Line
+	5900 2900 5900 1650
+Wire Wire Line
+	5900 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 1100
+Wire Wire Line
+	5950 1100 5900 1100
+Connection ~ 5900 2900
+Wire Wire Line
+	6000 1600 6000 2900
+Connection ~ 6000 2900
+Wire Wire Line
+	5800 2900 5800 1650
+Wire Wire Line
+	5800 1650 5850 1650
+Wire Wire Line
+	5850 1650 5850 1600
+Wire Wire Line
+	5850 1600 5900 1600
+Connection ~ 5800 2900
+Wire Wire Line
+	5600 4700 5600 5200
+Wire Wire Line
+	7200 3050 7500 3050
+Wire Wire Line
+	7500 3050 7500 2900
+Connection ~ 7500 2900
+Wire Wire Line
+	7500 3300 7500 3125
+Wire Wire Line
+	7500 3125 7300 3125
+Wire Wire Line
+	7300 3125 7300 2900
+Connection ~ 7300 2900
+Wire Wire Line
+	3650 4250 3650 4450
+Wire Wire Line
+	3650 4450 4450 4450
+Wire Wire Line
+	7500 4700 7500 4800
+Wire Wire Line
+	7500 4800 4450 4800
+Wire Wire Line
+	4450 4800 4450 4450
+Connection ~ 4450 4450
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 614AA094
+P 6550 4000
+F 0 "U1" V 6504 5078 50  0000 L CNN
+F 1 "Pico" V 6595 5078 50  0000 L CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH_Clean" V 6550 4000 50  0001 C CNN
+F 3 "" H 6550 4000 50  0001 C CNN
+	1    6550 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 4700 7100 5175
+Wire Wire Line
+	7100 5175 5500 5175
+Wire Wire Line
+	5500 5175 5500 5550
+Wire Wire Line
+	7100 5175 7725 5175
+Wire Wire Line
+	7725 5175 7725 2900
+Wire Wire Line
+	7725 2900 7600 2900
+Connection ~ 7100 5175
+Wire Wire Line
+	7600 2900 7600 1025
+Wire Wire Line
+	7600 1025 5575 1025
+Wire Wire Line
+	5575 1025 5575 1600
+Wire Wire Line
+	5575 1600 5700 1600
+Connection ~ 7600 2900
+Wire Wire Line
+	5700 1600 5700 1100
+Connection ~ 5700 1600
+Wire Wire Line
+	5700 2900 5700 1675
+Wire Wire Line
+	5700 1675 5750 1675
+Wire Wire Line
+	5750 1675 5750 1600
+Wire Wire Line
+	5750 1600 5800 1600
+Wire Wire Line
+	5800 1600 5800 1100
+Connection ~ 5800 1600
+Wire Wire Line
+	5700 2900 4450 2900
+Connection ~ 5700 2900
+Wire Wire Line
+	4450 2900 4450 3850
+Connection ~ 4450 3850
+Wire Wire Line
+	7150 5500 7225 5500
+Wire Wire Line
+	7225 5500 7225 5775
+Wire Wire Line
+	7225 5775 3750 5775
+Wire Wire Line
+	3750 5775 3750 4050
+Wire Wire Line
+	3750 4050 3650 4050
+Wire Wire Line
+	7300 4925 7150 4925
+Wire Wire Line
+	7150 4925 7150 5500
+Connection ~ 7150 5500
+Wire Wire Line
+	7300 4700 7300 4925
+Wire Wire Line
+	5700 2900 5700 2975
+Wire Wire Line
+	5700 2975 6200 2975
+Wire Wire Line
+	6200 2975 6200 2900
+Wire Wire Line
+	6200 2975 7000 2975
+Wire Wire Line
+	7000 2975 7000 2900
+Connection ~ 6200 2975
+Wire Wire Line
+	7000 2975 7100 2975
+Wire Wire Line
+	7100 2975 7100 2900
+Connection ~ 7000 2975
+Text Label 7300 4850 0    50   ~ 0
+GND
+Text Label 7100 4825 0    50   ~ 0
+3V
+Wire Wire Line
+	3650 3850 4450 3850
+Connection ~ 3650 4050
+Wire Wire Line
+	3650 3850 3650 4050
+Wire Wire Line
+	4150 4150 3650 4150
+$EndSCHEMATC
