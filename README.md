@@ -40,3 +40,7 @@ Add the Raspberry Pi Pico schematic:
 1. Click `OK` to confirm the folder selection.
 1. Repeat the same process for the `libraries/FeralAI/FeralAI.pretty` folder.
 1. Click `OK` to finish.
+
+## Purchasing
+
+If you don't want to manufacture your own board, or would like to support this project, the Pico Fighting Board is available for purchase here: https://shop.feralai.com/product/pico-fighting-board
