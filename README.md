@@ -44,3 +44,7 @@ The [`libraries`](https://github.com/FeralAI/PicoFightingBoard/tree/main/librari
 1. Click `OK` to confirm the folder selection.
 1. Repeat the same process for the `libraries/FeralAI/FeralAI.pretty` folder.
 1. Click `OK` to finish.
+
+## Support
+
+If you would like to discuss and issues or features with the Pico Fighting Board, please join the [OpenStick Pico Fighting Board Discord channel](https://discord.gg/ZGfT68AvpG).
