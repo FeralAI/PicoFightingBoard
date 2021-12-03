@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J2
+L Connector_Generic:Conn_02x10_Odd_Even 20PIN_HARNESS1
 U 1 1 614AD5C6
 P 6200 1300
-F 0 "J2" V 6204 1780 50  0000 L CNN
+F 0 "20PIN_HARNESS1" V 6204 1780 50  0000 L CNN
 F 1 "Conn_02x10_Odd_Even" V 6295 1780 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6200 1300 50  0001 C CNN
 F 3 "~" H 6200 1300 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 6200 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J1
+L Connector:Conn_01x03_Male RGB_LEDS1
 U 1 1 614BC220
 P 3450 4150
-F 0 "J1" H 3558 4431 50  0000 C CNN
+F 0 "RGB_LEDS1" H 3558 4431 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 3558 4340 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3450 4150 50  0001 C CNN
 F 3 "~" H 3450 4150 50  0001 C CNN
@@ -487,4 +487,12 @@ Wire Wire Line
 	3650 3850 3650 4050
 Wire Wire Line
 	4150 4150 3650 4150
+Wire Wire Line
+	5700 1600 5700 1625
+Wire Wire Line
+	6100 1625 6100 1600
+Wire Wire Line
+	5800 1600 5800 1625
+Wire Wire Line
+	5800 1625 6100 1625
 $EndSCHEMATC
