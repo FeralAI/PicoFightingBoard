@@ -107,7 +107,7 @@ U 1 1 61A8E982
 P 3500 5150
 F 0 "J9" H 3825 5500 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 4100 5400 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 3500 5150 50  0001 C CNN
+F 2 "FeralAI:BOOM_SH_C145961_1x04_P1.00mm_Vertical" H 3500 5150 50  0001 C CNN
 F 3 "~" H 3500 5150 50  0001 C CNN
 	1    3500 5150
 	1    0    0    -1  
@@ -366,8 +366,6 @@ Text Label 3750 5050 0    50   ~ 0
 SCL
 Text Label 9875 5175 0    50   ~ 0
 RGB
-Text Label 7950 5075 0    50   ~ 0
-RGB_DATA_5V
 Text Label 9550 4775 0    50   ~ 0
 GND
 Text Label 8650 5475 0    50   ~ 0
@@ -659,21 +657,13 @@ Wire Wire Line
 	5300 6650 5650 6650
 Wire Wire Line
 	5300 6750 5650 6750
-Text Label 5350 6450 0    50   ~ 0
-PLED1
-Text Label 5350 6550 0    50   ~ 0
-PLED2
-Text Label 5350 6650 0    50   ~ 0
-PLED3
-Text Label 5350 6750 0    50   ~ 0
-PLED4
 $Comp
 L Connector:Conn_01x04_Male J13
 U 1 1 61AFA94A
 P 3500 4250
 F 0 "J13" H 3775 4650 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 3750 4550 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 3500 4250 50  0001 C CNN
+F 2 "FeralAI:BOOM_SH_C145961_1x04_P1.00mm_Vertical" H 3500 4250 50  0001 C CNN
 F 3 "~" H 3500 4250 50  0001 C CNN
 	1    3500 4250
 	1    0    0    -1  
@@ -755,4 +745,48 @@ Wire Wire Line
 Wire Wire Line
 	7025 2375 7025 2475
 Connection ~ 7025 2375
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61B4F491
+P 10325 825
+F 0 "H1" H 10425 871 50  0000 L CNN
+F 1 "MountingHole" H 10425 780 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10325 825 50  0001 C CNN
+F 3 "~" H 10325 825 50  0001 C CNN
+	1    10325 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61B506A3
+P 10325 1100
+F 0 "H2" H 10425 1146 50  0000 L CNN
+F 1 "MountingHole" H 10425 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10325 1100 50  0001 C CNN
+F 3 "~" H 10325 1100 50  0001 C CNN
+	1    10325 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61B507EE
+P 10325 1400
+F 0 "H3" H 10425 1446 50  0000 L CNN
+F 1 "MountingHole" H 10425 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10325 1400 50  0001 C CNN
+F 3 "~" H 10325 1400 50  0001 C CNN
+	1    10325 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61B50A8C
+P 10325 1700
+F 0 "H4" H 10425 1746 50  0000 L CNN
+F 1 "MountingHole" H 10425 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 10325 1700 50  0001 C CNN
+F 3 "~" H 10325 1700 50  0001 C CNN
+	1    10325 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 Comment,Designator,Footprint,LCSC
 0.1uF,C1,Capacitor_SMD:C_0805_2012Metric,C286511
-Conn_01x02_Male,J10,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.54mm_Vertical,C390678
+Conn_01x02_Male,J10,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.54mm_Vertical,C234182
 Conn_02x10_Odd_Even,J2,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,C492427
 Conn_01x05_Male,J3,Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Vertical,C157993
 Conn_01x04_Male,"J1,J4,J11,J12",Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Vertical,C131334
