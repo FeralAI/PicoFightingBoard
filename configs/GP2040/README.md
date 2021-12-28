@@ -1,4 +1,4 @@
-# Pico Fighting Board Configuration
+# GP2040 Configuration for Pico Fighting Board
 
 ![Pin Mapping](PinMapping.png)
 
