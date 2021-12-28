@@ -4,7 +4,7 @@ Open source PCB for arcade sticks using Raspberry Pi Pico.
 
 ## Introduction
 
-![Pico Fighting Board v1.0](assets/PicoFightingBoard_v1.0.jpg)
+![Pico Fighting Board v1.0](assets/PicoFightingBoard_v1.1.jpg)
 
 They say imitation is the highest form of flattery. If that's the case then the Brook line of arcade controller boards must be blushing beet red. The Pico Fighting Board uses the same form factor and layout of the Brook PCBs to maintain compatibility with existing arcade stick cases, wiring harnesses, wire management accessories, etc.
 
