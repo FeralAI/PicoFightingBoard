@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"0.1uF","C1","Capacitor_SMD:C_0805_2012Metric",""
+"MountingHole","H1,H2,H3,H4","MountingHole:MountingHole_2.7mm_M2.5",""
+"Conn_01x02_Male","J10","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"Conn_02x10_Odd_Even","J2","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",""
+"Conn_01x05_Male","J3","Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical",""
+"Conn_01x04_Male","J1,J4,J11,J12","Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical",""
+"ST01x05","J5,J6,J7,J8","TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal",""
+"Conn_01x04_Male","J9,J13","FeralAI:BOOM_SH_C145961_1x04_P1.00mm_Vertical",""
+"330","R1,R2,R3,R4,R5","Resistor_SMD:R_0805_2012Metric",""
+"4.7k","R6,R7","Resistor_SMD:R_0805_2012Metric",""
+"Pico","U1","MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH_Clean",""
+"SN74LV1T34DBV","U2","Package_TO_SOT_SMD:SOT-23-5",""
