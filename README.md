@@ -48,3 +48,21 @@ The [`libraries`](https://github.com/FeralAI/PicoFightingBoard/tree/main/librari
 ## Support
 
 If you would like to discuss and issues or features with the Pico Fighting Board, please join the [OpenStick Pico Fighting Board Discord channel](https://discord.gg/ZGfT68AvpG).
+
+## Contributions
+
+Want to help improve the Pico Fighting Board? There are a bunch of ways to contribute!
+
+### Pull Requests
+
+Pull requests are welcome and encouraged for enhancements, fixes and documentation updates.
+
+### Donations
+
+If you'd like to make a donation to my open source work, you can
+
+<a href=""><img src=".github/assets/github-sponsor-dimmed.png" alt="Sponsor Feral AI on Github" style="height: 40px !important;" ></a>
+
+or
+
+<a href="https://www.buymeacoffee.com/feralai" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 40px !important;" ></a>
