@@ -61,7 +61,7 @@ Pull requests are welcome and encouraged for enhancements, fixes and documentati
 
 If you'd like to make a donation to my open source work, you can
 
-<a href=""><img src=".github/assets/github-sponsor-dimmed.png" alt="Sponsor Feral AI on Github" style="height: 40px !important;" ></a>
+<a href="https://github.com/sponsors/FeralAI"><img src=".github/assets/github-sponsor-dimmed.png" alt="Sponsor Feral AI on Github" style="height: 40px !important;" ></a>
 
 or
 
