@@ -10,8 +10,6 @@ They say imitation is the highest form of flattery. If that's the case then the 
 
 The files for PCB production are in the [Releases](https://github.com/FeralAI/PicoFightingBoard/releases) section. The zip file contains the Gerber and drill files, which is all you'll need if you're soldering SMT components yourself. There are also `csv` files for the BOM (Bill of Materials) and component positioning for SMT assembly service.
 
-I will also have premade boards periodically available for purchase at <https://shop.feralai.com/product/pico-fighting-board>.
-
 ## Firmware
 
 The [GP2040](https://github.com/FeralAI/GP2040) gamepad firmware for Pi Pico/RP2040 has a pre-configured build for use with the Pico Fighting Board, providing support for XInput (PC, Android, Raspberry Pi, etc.), DInput (PC/PS3) and Nintendo Switch. [Go to the releases](https://github.com/FeralAI/GP2040/releases) and download the `GP2040-PicoFightingBoard.uf2`. To flash:
