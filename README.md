@@ -10,7 +10,7 @@ They say imitation is the highest form of flattery. If that's the case then the 
 
 The files for PCB production are in the [Releases](https://github.com/FeralAI/PicoFightingBoard/releases) section. The zip file contains the Gerber and drill files, which is all you'll need if you're soldering SMT components yourself. There are also `csv` files for the BOM (Bill of Materials) and component positioning for SMT assembly service.
 
-## Components needed for making your own boards
+## Components needed for assembling your own boards (soldering required)
 
 Pico Fighting Board Components List v1.1a
 
