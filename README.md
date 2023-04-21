@@ -32,6 +32,10 @@ Qty - Part
 <br>2 - 4.7k ohm Capacitor 0805 SMD type
 <br>1 - 0.1 uF (100nF) Capacitor 0805 SMD type
 
+## Component Location
+
+![Pico-Fighting-Component-Location-v1_non_branded](https://user-images.githubusercontent.com/49738515/233526525-965f2502-5460-4285-9fbe-e992c22de6ee.jpg)
+
 ## Firmware
 
 The [GP2040](https://github.com/FeralAI/GP2040) gamepad firmware for Pi Pico/RP2040 has a pre-configured build for use with the Pico Fighting Board, providing support for XInput (PC, Android, Raspberry Pi, etc.), DInput (PC/PS3) and Nintendo Switch. [Go to the releases](https://github.com/FeralAI/GP2040/releases) and download the `GP2040-PicoFightingBoard.uf2`. To flash:
