@@ -2,6 +2,11 @@
 
 Open source PCB for arcade sticks using Raspberry Pi Pico.
 
+## Note
+
+A newer community version of the firmware for the Raspberry Pi Pico can be found here : 
+<a href=https://github.com/OpenStickCommunity/GP2040-CE>https://github.com/OpenStickCommunity/GP2040-CE</a>
+
 ## Introduction
 
 ![Pico Fighting Board v1.0](assets/PicoFightingBoard_v1.1.jpg)
@@ -9,6 +14,27 @@ Open source PCB for arcade sticks using Raspberry Pi Pico.
 They say imitation is the highest form of flattery. If that's the case then the Brook line of arcade controller boards must be blushing beet red. The Pico Fighting Board uses the same form factor and layout of the Brook PCBs to maintain compatibility with existing arcade stick cases, wiring harnesses, wire management accessories, etc.
 
 The files for PCB production are in the [Releases](https://github.com/FeralAI/PicoFightingBoard/releases) section. The zip file contains the Gerber and drill files, which is all you'll need if you're soldering SMT components yourself. There are also `csv` files for the BOM (Bill of Materials) and component positioning for SMT assembly service.
+
+## Components needed for assembling your own boards (soldering required)
+
+Pico Fighting Board Components List v1.1a
+
+Qty - Part
+<br>1 - Raspberry Pi Pico (non wifi version)
+<br>1 - SN74LV1T34DBVR Buffer / Logic chip 5-Pin SOT-2
+<br>10 - Screw Terminal Block 2 pins / 3.5mm pitch (other combinations should work)
+<br>4 - 4 pin JST-PH 2.0 mm pitch Vertical through hole conn
+<br>1 - 5 pin JST-PH 2.0 mm pitch Vertical through hole conn
+<br>1 - 2 x 10 2.54 mm pitch Pin header vertical type (2 individual 10 pin ones will work)
+<br>1 - 2 x 1 2.54 mm pitch Pin header vertical type
+<br>2 - 4 pin JST-SH 1.0 mm pitch Vertical surface mount conn
+<br>5 - 330 ohm Resistor 0805 SMD type
+<br>2 - 4.7k ohm Capacitor 0805 SMD type
+<br>1 - 0.1 uF (100nF) Capacitor 0805 SMD type
+
+## Component Location
+
+![Pico-Fighting-Component-Location-v1_non_branded](https://user-images.githubusercontent.com/49738515/233526525-965f2502-5460-4285-9fbe-e992c22de6ee.jpg)
 
 ## Firmware
 
