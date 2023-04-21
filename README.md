@@ -10,6 +10,23 @@ They say imitation is the highest form of flattery. If that's the case then the 
 
 The files for PCB production are in the [Releases](https://github.com/FeralAI/PicoFightingBoard/releases) section. The zip file contains the Gerber and drill files, which is all you'll need if you're soldering SMT components yourself. There are also `csv` files for the BOM (Bill of Materials) and component positioning for SMT assembly service.
 
+## Components needed for making your own boards
+
+Pico Fighting Board Components List v1.1a
+
+Qty / Part
+1 - Raspberry Pi Pico (non wifi version)
+1 - SN74LV1T34DBVR Buffer / Logic chip 5-Pin SOT-2
+10 - Screw Terminal Block 2 pins / 3.5mm pitch (other combinations should work)
+4 - 4 pin JST-PH 2.0 mm pitch Vertical through hole conn
+1 - 5 pin JST-PH 2.0 mm pitch Vertical through hole conn
+1 - 2 x 10 2.54 mm pitch Pin header vertical type (2 individual 10 pin ones will work)
+1 - 2 x 1 2.54 mm pitch Pin header vertical type
+2 - 4 pin JST-SH 1.0 mm pitch Vertical surface mount conn
+5 - 330 ohm Resistor 0805 SMD type
+2 - 4.7k ohm Capacitor 0805 SMD type
+1 - 0.1 uF (100nF) Capacitor 0805 SMD type
+
 ## Firmware
 
 The [GP2040](https://github.com/FeralAI/GP2040) gamepad firmware for Pi Pico/RP2040 has a pre-configured build for use with the Pico Fighting Board, providing support for XInput (PC, Android, Raspberry Pi, etc.), DInput (PC/PS3) and Nintendo Switch. [Go to the releases](https://github.com/FeralAI/GP2040/releases) and download the `GP2040-PicoFightingBoard.uf2`. To flash:
