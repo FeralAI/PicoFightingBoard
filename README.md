@@ -2,6 +2,11 @@
 
 Open source PCB for arcade sticks using Raspberry Pi Pico.
 
+## Note
+
+A newer community version of the firmware for the Raspberry Pi Pico can be found here : 
+<a href=https://github.com/OpenStickCommunity/GP2040-CE>https://github.com/OpenStickCommunity/GP2040-CE</a>
+
 ## Introduction
 
 ![Pico Fighting Board v1.0](assets/PicoFightingBoard_v1.1.jpg)
