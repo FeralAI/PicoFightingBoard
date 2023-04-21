@@ -14,18 +14,18 @@ The files for PCB production are in the [Releases](https://github.com/FeralAI/Pi
 
 Pico Fighting Board Components List v1.1a
 
-Qty / Part
-1 - Raspberry Pi Pico (non wifi version)
-1 - SN74LV1T34DBVR Buffer / Logic chip 5-Pin SOT-2
-10 - Screw Terminal Block 2 pins / 3.5mm pitch (other combinations should work)
-4 - 4 pin JST-PH 2.0 mm pitch Vertical through hole conn
-1 - 5 pin JST-PH 2.0 mm pitch Vertical through hole conn
-1 - 2 x 10 2.54 mm pitch Pin header vertical type (2 individual 10 pin ones will work)
-1 - 2 x 1 2.54 mm pitch Pin header vertical type
-2 - 4 pin JST-SH 1.0 mm pitch Vertical surface mount conn
-5 - 330 ohm Resistor 0805 SMD type
-2 - 4.7k ohm Capacitor 0805 SMD type
-1 - 0.1 uF (100nF) Capacitor 0805 SMD type
+Qty - Part
+<br>1 - Raspberry Pi Pico (non wifi version)
+<br>1 - SN74LV1T34DBVR Buffer / Logic chip 5-Pin SOT-2
+<br>10 - Screw Terminal Block 2 pins / 3.5mm pitch (other combinations should work)
+<br>4 - 4 pin JST-PH 2.0 mm pitch Vertical through hole conn
+<br>1 - 5 pin JST-PH 2.0 mm pitch Vertical through hole conn
+<br>1 - 2 x 10 2.54 mm pitch Pin header vertical type (2 individual 10 pin ones will work)
+<br>1 - 2 x 1 2.54 mm pitch Pin header vertical type
+<br>2 - 4 pin JST-SH 1.0 mm pitch Vertical surface mount conn
+<br>5 - 330 ohm Resistor 0805 SMD type
+<br>2 - 4.7k ohm Capacitor 0805 SMD type
+<br>1 - 0.1 uF (100nF) Capacitor 0805 SMD type
 
 ## Firmware
 
